@@ -1,0 +1,86 @@
+.aboutMe {
+    margin-left: 200px;
+    margin-top: 120px;
+    margin-right: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: 
+    'photo description'
+    'photo development';
+
+    &__photo {
+        grid-area: photo;
+        .aboutMe__img {
+            width: 400px;
+            height: 600px;
+        }
+    }
+    &__descrription {
+        grid-area: description;
+    }
+    &__header {
+        position: relative;
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        @include before_circle;
+        z-index: 2;
+    }
+    &__subheader {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 60px;
+    }
+    &__divider {
+        width: 60px;
+        height: 0px;
+        border: 1px solid #FFA501;
+        margin-bottom: 20px;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &__development {
+        grid-area: development; 
+    }
+}
+.dev {
+    display: flex;
+    justify-content: space-around;
+    &__item {
+        display: grid;
+        grid-template-columns: 1px 2fr;
+        grid-template-rows: 30px 70px;
+        row-gap: 6px;
+        column-gap: 50px;
+        grid-template-areas: 
+        'icons headers'
+        '. texts';
+    }
+    &__icon {
+        grid-area: icons;
+        width: 25px;
+        height: 23px;
+        position: relative;
+        padding-left: 15px;
+        padding-top: 7px;
+        z-index: 3;
+        @include before_circle;
+    }
+    &__header {
+        grid-area: headers;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &__text {
+        grid-area: texts;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

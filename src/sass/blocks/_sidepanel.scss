@@ -1,0 +1,37 @@
+.sidepanel {
+    position: fixed;
+    height: 340px;
+    top: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 3;
+    &__divider {
+        width: 2px;
+        height: 70px;
+        background: chocolate;
+    } 
+    &__text {
+        color: chocolate;
+        transform: rotate(-90deg) translate(-30%);
+    }  
+    &__link {
+        &:hover {
+            .facebook path {
+                fill: rgb(2, 105, 190);
+            
+            }
+            .instagram path {
+                fill: rgb(248, 70, 47);
+            
+            }
+            .github path {
+                fill: rgb(168, 168, 168);
+            
+            }
+        }
+    }
+    
+}

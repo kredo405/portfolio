@@ -1,0 +1,109 @@
+.skills {
+    .container {
+        margin-top: 130px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__title {
+        position: relative;
+        z-index: 2;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        @include center_circle;
+
+    }
+    &__subtitle {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 60px;
+    }
+    &__diviler {
+        width: 60px;
+        height: 0px;
+        border: 1px solid #FFA501;
+    }
+    &__cards {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 270px 270px;
+        gap: 13px;
+    }
+    &__card {
+        width: 270px;
+        height: 270px;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: rgb(88, 86, 51) 3px 3px;
+    }
+    &__img {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    &__name {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        padding: 15px 30px 15px 30px;
+    }
+    &__progress {
+        margin-top: 130px;
+        margin-bottom: 200px;
+    }
+}
+.progress-know {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    &__item {
+        width: 350px;
+        height: 70px;
+        display: grid;
+        grid-auto-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        'title percent'
+        'bar bar';
+    }
+    &__title {
+        grid-area: title;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        position: relative;
+        z-index: 2;
+        padding-left: 10px;
+        @include before_circle;
+    }
+    &__percent {
+        grid-area: percent;
+        justify-self: end;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &__bar-parent {
+        grid-area: bar;
+        width: 350px;
+        height: 14px;
+        background: #E8E4DE;
+        border: 1px solid #E8E4DE;
+        border-radius: 4px;
+    }
+    &__bar-child {
+        height: 14px;
+        background: #FFA501;
+        border-radius: 4px;
+    }
+}

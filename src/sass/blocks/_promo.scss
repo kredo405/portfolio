@@ -1,0 +1,51 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background: url('../img/main_bg.png') no-repeat 50%/cover;
+    padding-top: 220px;
+    &__hamburger {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        height: 21px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        cursor: pointer;
+        span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: black;
+        }
+        span.promo__long {
+            width: 36px;
+        }
+    }
+    &__title {
+        width: 532px;
+        margin-top: 10px;
+    }
+    &__buttons {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 250px;
+    }
+    &__links {
+      color:  #fff;
+      font-weight: bold;
+       &:hover {
+           color: rgb(0, 1, 2);
+           text-decoration: none;
+       }
+    }
+    &__title_subtitle {
+        position: relative;
+        padding-left: 10px;
+        z-index: 2;
+        @include before_circle;
+    }
+}

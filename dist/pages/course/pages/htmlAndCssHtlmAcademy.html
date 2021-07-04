@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>HTML и CSS. Адаптивная вёрстка и автоматизация</title>
+</head>
+
+<body>
+    <nav class="nav" style="background-color: #f1f1f1;">
+        <div class="container">
+            <div class="menu">
+                <button class="navbar__toggler" type="button">
+                    <span class="toggler__icon"><img class="gamburger" src="../icons/menu.png" alt=""></span>
+                </button>
+                <div class="collapse__nav_maxScreen">
+                    <ul>
+                        <li class="nav_item">
+                            <a class="nav_link active" href="../index.html">Главная</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="collapse__nav">
+                <ul>
+                    <li class="nav_item">
+                        <a class="nav_link active" href="../index.html">Главная</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="main__header">
+                    <div class="col-12">
+                        <div class="header">
+                            <h1>HTML и CSS. Адаптивная вёрстка и автоматизация</h1>
+                        </div>
+                        <div class="discription">
+                            Курс разработан для тех, кто хочет сменить профессию и стать высокооплачиваемым
+                            профессионалом. Он подойдёт для работающих людей, у которых мало времени.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="imgPreview">
+                    <img src="https://zavistnik.com/wp-content/uploads/2020/12/html-zastavka-kurs-750x375.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="whatStudy">
+            <div class="container">
+                <h3>Что входит в программу курса</h3>
+                <div class="row">
+                    <div class="col-12">
+                        <p>Во время курса вы будете работать как профессиональные верстальщики: создадите разметку по
+                            методологии БЭМ, будете писать CSS-код на препроцессорах, сделаете адаптивную сетку,
+                            поработаете с адаптивной и ретиновой графикой и подготовите автоматизацию сборки проекта для
+                            публикации. На каждом этапе вашу работу будет проверять и комментировать личный наставник.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="imgPreview">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="1000">
+                                <img src="https://assets.htmlacademy.ru/img/slider-pics/bem-markup@1x.webp"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://assets.htmlacademy.ru/img/slider-pics/adaptive-layout@1x.webp"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://assets.htmlacademy.ru/img/slider-pics/automate-build@1x.webp"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn__receive">
+        <a href="tg://resolve?domain=Kredo405">Получить курс</a>
+    </div>
+    <div class="video_preview">
+        <h3>Фрагмент из курса</h3>
+        <div class="video">
+            <video width="80%" height="300" controls="controls">
+                <source src="../video/html_academy1.mp4" type='video/mp4'>
+            </video>
+        </div>
+    </div>
+    <section>
+        <div class="tehnology">
+            <div class="container">
+                <h3>Программа:</h3>
+                <div class="row">
+                    <div class="col-">
+                        <div class="tehnology_programm__colapse">
+                            <a class="tehnology__menu-list">
+                                <h5><span>1</span> Введение</h5><img src="../icons/gamburger.png" alt="">
+                            </a>
+                            <ul>
+                                <li>Обзор личных проектов.</li>
+                                <li>Как работать с наставником.</li>
+                                <li>Критерии качества вёрстки.</li>
+                                <li>Защита личного проекта и получение сертификата.</li>
+                            </ul>
+                            <a class="tehnology__menu-list">
+                                <h5><span>2</span> Методологии вёрстки</h5><img src="../icons/gamburger.png" alt="">
+                            </a>
+                            <ul>
+                                <li>Зачем нужны методологии.</li>
+                                <li>Обзор подходов к вёрстке</li>
+                                <li>Методология БЭМ.</li>
+                                <li>Разбор учебного проекта по БЭМу.</li>
+                            </ul>
+                            <a class="tehnology__menu-list">
+                                <h5><span>3</span> Препроцессоры и автоматизация</h5><img src="../icons/gamburger.png" alt="">
+                            </a>
+                            <ul>
+                                <li>Стили на стероидах.</li>
+                                <li>Сравнение Less и Sass.</li>
+                                <li>Переменные и математика.</li>
+                                <li>Организация кода.</li>
+                                <li>Сборка стилей.</li>
+                                <li>Система сборки на Node.js.</li>
+                                <li>Сборщик Gulp.</li>
+                                <li>Автоматизация сборки и вотчеры.</li>
+                            </ul>
+                            <a class="tehnology__menu-list">
+                                <h5><span>4</span> Адаптивные сетки</h5><img src="../icons/gamburger.png" alt="">
+                            </a>
+                            <ul>
+                                <li>Спецификация Grid Layout и раскладка по сетке макета.</li>
+                                <li>Спецификация Flexible Boxes и раскладка по сетке макета.</li>
+                                <li>Адаптивные сетки.</li>
+                                <li>Создаём адаптивные сетки БЭМ-блоков учебного проекта.</li>
+                            </ul>
+                            <a class="tehnology__menu-list">
+                                <h5><span>5</span> Адаптивные декоративные элементы</h5><img src="../icons/gamburger.png" alt="">
+                            </a>
+                            <ul>
+                                <li>Завершаем адаптивную вёрстку БЭМ-блоков учебного проекта.</li>
+                                <li>Переход от фиксированных сеток к резиновым. Тонкости флексов.</li>
+                                <li>Делаем резиново-адаптивную вёрстку БЭМ-блоков учебного проекта.</li>
+                            </ul>
+                            <a class="tehnology__menu-list">
+                                <h5><span>6</span> Адаптивная графика</h5><img src="../icons/gamburger.png" alt="">
+                            </a>
+                            <ul>
+                                <li>Графика для экранов повышенной чёткости.</li>
+                                <li>Адаптивная графика</li>
+                                <li>Ретинизируем и добавляем адаптивную графику в учебном проекте.</li>
+                            </ul>
+                            <a class="tehnology__menu-list">
+                                <h5><span>7</span> Векторная графика и оптимизация</h5><img src="../icons/gamburger.png" alt="">
+                            </a>
+                            <ul>
+                                <li>Использование SVG.</li>
+                                <li>SVG-спрайты.</li>
+                                <li>Стилизация SVG.</li>
+                                <li>Оптимизация и доступность SVG.</li>
+                                <li>Оптимизация растровой графики.</li>
+                            </ul>
+                            <a class="tehnology__menu-list">
+                                <h5><span>8</span> Погружение в автоматизацию</h5><img src="../icons/gamburger.png" alt="">
+                            </a>
+                            <ul>
+                                <li>Оптимизация</li>
+                                <li>Как держать код для разработчика удобным, а для браузеров — быстрым.</li>
+                            </ul>
+                            <a class="tehnology__menu-list">
+                                <h5><span>9</span> Производительность вёрстки</h5><img src="../icons/gamburger.png" alt="">
+                            </a>
+                            <ul>
+                                <li>Обзор трендов скорости интернета.</li>
+                                <li>Процесс загрузки страницы.</li>
+                                <li>Оптимизация шрифтов.</li>
+                                <li>Аудит и подсказки.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="technologies">
+            <div class="container">
+                <h3>Используемые технологии</h3>
+                <div class="row">
+                    <div class="col">
+                        <div class="tehnologies_icons">
+                            <div class="tehnologies_icons__item">
+                                <img src="../img/html.png" alt="">
+                            </div>
+                            <div class="tehnologies_icons__item">
+                                <img src="../img/css.png" alt="">
+                            </div>
+                            <div class="tehnologies_icons__item">
+                                <img src="../img/gulp.png" alt="">
+                            </div>
+                            <div class="tehnologies_icons__item">
+                                <img src="../img/bootstrap.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="btn__receive">
+        <a href="tg://resolve?domain=Kredo405">Получить курс</a>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+        <script src="../js/script.js"></script>
+</body>
+
+</html>

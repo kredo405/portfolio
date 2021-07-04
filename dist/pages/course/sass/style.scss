@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@900&family=Roboto:wght@500&display=swap');
+@import "course.scss";
+@import "oplata.scss";
+
+.nav__logo {
+    width: 20%;
+    height: 20%;
+}
+header {
+    display: flex;
+    justify-content: center;
+    .header_welcome {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+        background: #F5F5F7;
+        border-radius: 14px;
+        width: 100%;
+        height: 160px;
+            h1 {
+                font-family: Roboto;
+                font-weight: bold;
+                font-size: 36px;
+                color: #292929;
+                padding-left: 10px;
+            }
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                color: #4b4b4b;
+                padding-left: 10px;
+            }
+    }
+}
+.main {
+    margin-top: 40px;
+    &_header {
+        display: flex;
+        justify-content: start;
+        h2 {
+            font-family: Roboto;
+            font-weight: bold;
+            color: #0C0B0B;
+        }
+    }
+    nav {
+        .nav-link {
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 16px;
+            color: #0C0B0B;
+            opacity: 0.3;
+        }
+        .active {
+            color: #0C0B0B;
+            opacity: 1.0;
+        }
+    }
+    .list_courses_all {
+        margin-top: 30px;
+        .list_courses_all_item {
+            background: #F5F5F7;
+            border-radius: 14px;
+        }
+    }
+    .list_courses_all_item {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .list_courses_block_img {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F5F5F7;
+            .list_courses_block_img_logo {
+                display: block;
+                padding: 10px;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .list_courses_header {
+            width: 35%;
+            h5 {
+                font-size: 13px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+        .list_courses_rating {
+            width: 15%;
+           
+        }
+        .list_courses_view {
+            width: 20%;
+            .view_course {
+                width: 90%;
+                font-size: 13px;
+                border: 2px solid #0C0B0B;
+                box-sizing: border-box;
+                border-radius: 8px;
+                padding: 10px 0px;
+                font-family: Roboto;
+                font-weight: bold;
+                margin-right: 10%;
+            }
+            @media (max-width: 330px) {
+                .view_course {
+                    font-size: 10px;
+                }
+            }
+        }
+        
+    }
+    .category {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(230, 230, 250, 0.822);
+        margin-top: 20px;
+        font-family: Roboto;
+        color: rgb(68, 68, 68);
+    }
+}
+
+

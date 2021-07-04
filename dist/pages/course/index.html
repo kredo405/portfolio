@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(80552806, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/80552806" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <title>Курсы</title>
+</head>
+
+<body>
+    <nav class="nav" style="background-color: #f1f1f1;">
+        <div class="container">
+            <div class="menu">
+                <button class="navbar__toggler" type="button">
+                    <span class="toggler__icon"><img class="gamburger" src="../icons/menu.png" alt=""></span>
+                </button>
+                <div class="collapse__nav_maxScreen">
+                    <ul>
+                        <li class="nav_item">
+                            <a class="nav_link active" href="../index.html">Главная</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="collapse__nav">
+                <ul>
+                    <li class="nav_item">
+                        <a class="nav_link active" href="../index.html">Главная</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="header_welcome">
+                <div class="header_welcome_description">
+                    <h1>Привет!</h1><br>
+                    <p>Выбирай себе подходящий курс</p>
+                </div>
+                <img src="img/Illustration.png" alt="man">
+            </div>
+
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="main_header">
+                <h2>Курсы:</h2>
+            </div>
+            <nav>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Все курсы</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Категории</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html#web">Веб-разработка</a></li>
+                            <li><a class="dropdown-item" href="index.html#java">java</a></li>
+                            <li><a class="dropdown-item" href="index.html#cSharp">C#</a></li>
+                            <li><a class="dropdown-item" href="index.html#test">Тестирование и аналитика</a></li>
+                            <li><a class="dropdown-item" href="index.html#python">Python</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="row">
+                <div class="col-12">
+                    <div class="category">
+                        <h4 id = "web">Веб разработка</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="https://assets.htmlacademy.ru/og/intensive/v4/htmlcss-og.png" alt="html css">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>HTML и CSS. Профессиональная вёрстка сайтов</h5>
+                                <p>От HTML Academy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.6</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/htmlAndCss2HtmlAcademy.html'"
+                                class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="img/html_css.jpg" alt="html css">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>HTML и CSS. Адаптивная вёрстка и автоматизация</h5>
+                                <p>От HTML Academy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 5.0</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/htmlAndCssHtlmAcademy.html'"
+                                class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="https://assets.htmlacademy.ru/og/intensive/v4/javascript-vk.png" alt="html css">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>JavaScript. Профессиональная разработка веб-интерфейсов</h5>
+                                <p>От HTML Academy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.6</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/js1HtmlAcademy.html'"
+                                class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="img/ecmascriptHtmlAcademy.png" alt="html css">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>JavaScript. Архитектура клиентских приложений</h5>
+                                <p>От HTML Academy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 5.0</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/js2HtmlAcademy.html'"
+                                class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="img/reactHtml.academy.jpg" alt="html css">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>React. Разработка сложных клиентских приложений</h5>
+                                <p>От HTML Academy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 5.0</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/reactHtmlAcademy.html'"
+                                class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="https://d2xzmw6cctk25h.cloudfront.net/assets/professions/redesign/frontend_developer/description_block-d2184394727eada0ba55fc3ccf98868a15799fee3cb56c7719b60f1e29d5d7da.png" alt="html css">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>Frontend-разработчик</h5>
+                                <p>От GeekBrains</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.9</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/frontendGeekBrains.html'"
+                                class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="https://prognote.ru/wp-content/uploads/2020/02/%D1%83%D1%87%D0%B8%D1%82%D1%8C-JavaScript.jpg" alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>JavaScript 2021 - Полное Руководство с Нуля до Профи</h5>
+                                <p>От Udemy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.6</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/jsVladilen.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="img/react.jpg" alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>React JS 2020. С нуля до профессионала</h5>
+                                <p>От Udemy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.9</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/reactJS2020Vladilen.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="img/reactNative.png" alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>React Native 2020. Мобильные приложения на JavaScript</h5>
+                                <p>От Udemy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.9</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/reactNative.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="img/node.png" alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>Node JS. Практический курс. (Mongo, GraphQL, MySQL, Express)</h5>
+                                <p>От Udemy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.7</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/nodeJs.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="img/web.jpg" alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>WEB-разаработчик 2021</h5>
+                                <p>От Udemy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.7</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/webRazrabotchik2021Petrichenko.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="img/wordpress.png" alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>Посадка верстки и создание тем на CMS WordPress</h5>
+                                <p>От Udemy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.5</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/wordpressPetrichenko.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="img/typescript.png" alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>TypeScript - полное руководство разработчика</h5>
+                                <p>От Udemy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.7</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/typeScriptUdemy.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="img/phpGlo.png" alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>PHP-разработчик (2020)</h5>
+                                <p>От glo-academy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.7</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/phpRazrabotchikGlo.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo" src="https://itproger.com/paid_courses/img/php-bg.svg" alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>Изучение PHP и MySQL до профи PHP</h5>
+                                <p>От itproger
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.7</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/phpItproger.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="category">
+                        <h4 id = "java">Java</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo"
+                                    src="https://248006.selcdn.ru/LandGen/desktop_2_477ae814606ca5e5256c683921f40d2d7f29bad4.webp"
+                                    alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>Профессия Java-разработчик</h5>
+                                <p>От Skillbox</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.7</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/javaRazrabotchikSkillBox.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="category">
+                        <h4 id = "python">Python</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo"
+                                    src="https://beonmax.com/img//cover/python.jpg"
+                                    alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5> Полный курс Python для начинающих – с нуля до специалиста</h5>
+                                <p>От Beonmax</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.6</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/pytonBeonmax.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo"
+                                    src="https://miro.medium.com/max/768/0*WH5V1eelitHjEIK8.png"
+                                    alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5> Python разработка - с нуля до профессионала. Python 3</h5>
+                                <p>От Udemy</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.9</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/pythonRazrabotkaUdemy.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="category">
+                        <h4 id = "cSharp">С#</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo"
+                                    src="https://edu.cbsystematics.com/assets/img/specialities/header-img/NET-developer.png"
+                                    alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>C#/.NET DEVELOPER</h5>
+                                <p>От CyberBionic</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.7</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/cSharpCyberBionic.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo"
+                                    src="https://itproger.com/paid_courses/img/cpp_man.svg"
+                                    alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>Изучение C# от новичка до профи</h5>
+                                <p>От itproger</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.5</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/cSharpItProger.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="category">
+                        <h4 id = "test">Тестирование и аналитика</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list_courses_all">
+                        <div class="list_courses_all_item">
+                            <div class="list_courses_block_img">
+                                <img class="list_courses_block_img_logo"
+                                    src="data:image/png;base64,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"
+                                    alt="frontend">
+                            </div>
+                            <div class="list_courses_header">
+                                <h5>Тестировщик ПО</h5>
+                                <p>От GeekBrains</p>
+                            </div>
+                            <div class="list_courses_rating">
+                                <img src="icons/fire.png" alt="fire"><span> 4.7</span>
+                            </div>
+                            <div class="list_courses_view">
+                                <button onclick="document.location='pages/testirovschikPOGeekBrains.html'"
+                                    class="view_course">Показать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="list_courses_all">
+                    <div class="list_courses_all_item">
+                        <div class="list_courses_block_img">
+                            <img class="list_courses_block_img_logo"
+                                src="https://248006.selcdn.ru/LandGen/desktop_2_61a82ecf276120138faef6d889a2ed48a18f1c09.webp"
+                                alt="frontend">
+                        </div>
+                        <div class="list_courses_header">
+                            <h5>Финансовый аналитик</h5>
+                            <p>От Skillbox</p>
+                        </div>
+                        <div class="list_courses_rating">
+                            <img src="icons/fire.png" alt="fire"><span> 4.8</span>
+                        </div>
+                        <div class="list_courses_view">
+                            <button onclick="document.location='pages/finansoviyAnalitik.html'"
+                                class="view_course">Показать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+        </div>
+    </div>
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+</body>
+
+</html>

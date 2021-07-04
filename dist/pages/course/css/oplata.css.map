@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACG,kBAAQ;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,KAAK",
+"sources": ["../sass/oplata.scss"],
+"names": [],
+"file": "oplata.css"
+}
